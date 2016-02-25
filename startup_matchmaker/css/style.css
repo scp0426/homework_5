@@ -1,0 +1,149 @@
+* {
+	margin: 0px;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+header {
+	background-color: black;
+	overflow: hidden;
+	border-bottom: 5px solid yellow;
+}
+
+	h1 {
+		color: yellow;
+		font-size: 45px;
+		margin-left: 30px;
+	}
+
+	nav li {
+		list-style-type: none;
+		float: right;
+		padding: 10px;
+		font-size: 24px;
+		margin-right: 33px;
+	}
+
+	#nav-bold {
+		font-weight: bolder;
+	}
+
+	header a {
+		color: white;
+		text-decoration: none;
+	}
+
+	#brains {
+		background-color: grey;
+		font-weight: bold;
+		font-style: italic;
+		font-size: 24px;
+		letter-spacing: 3px;
+		height: 50px;
+		padding-top: 15px;
+		text-align: center;
+	}
+
+	u {
+		color: yellow;
+	}
+
+	#background {
+		background-image: url("../images/coworking.jpg");
+		height: 550px;
+		background-size: cover;
+	}
+
+	aside {
+		border: 2px solid black;
+		width: 25%;
+		height: 70%;
+		float: right;
+		margin-top: 6.5%;
+		margin-right: 7%;
+		background-color: rgba(255,255,255,0.8);
+		opacity: 0.5%;
+	}
+
+	aside h2 {
+		font-size: 35px;
+		padding: 20px 10px;
+	}
+
+	aside p {
+		font-size: 20px;
+		letter-spacing: 2px;
+		padding: 5px 30px;
+	}
+
+	aside button {
+		background-color: yellow;
+		padding: 15px;
+		margin-left: 13px;
+		margin-top: 19px;
+		width: 90%;
+		border: 1px;
+		border-radius: 10px;
+		box-shadow: 3px 3px #888888;
+		font-size: 18px;
+		font-weight: bolder;
+	}
+
+
+#cta h3 {
+	font-size: 30px;
+}
+
+#cta p {
+	font-size: 24px;
+}
+
+#profile {
+	float: left;
+	width: 30%;
+	height: 200px;
+	padding: 20px;
+	margin-top: 20px;
+	border-right: 2px solid grey;
+}
+
+
+#developer {
+	width: 30%;
+	height: 200px;
+	border-right: 2px solid grey;
+	padding: 20px;
+	margin-top: 20px;
+	float: left;
+}
+
+
+#designer {
+	width: 30%;
+	height: 200px;
+	padding: 20px;
+	float: right;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#cta button {
+		background-color: ##D8D8D8;
+		padding: 15px;
+		margin-left: 5px;
+		margin-top: 19px;
+		width: 90%;
+		border: 1px;
+		border-radius: 10px;
+		box-shadow: 3px 3px #888888;
+		font-size: 18px;
+		font-weight: bolder;
+}
+
+footer {
+	clear: both;
+	height: 50px;
+	background-color: black;
+	color: white;
+	padding: 20px;
+}
+
